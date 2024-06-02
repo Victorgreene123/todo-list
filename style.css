@@ -1,0 +1,49 @@
+
+#todo-container{
+    margin-left: calc(50% - 150px );
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 10px;
+}
+#todo {
+    padding: 5px;
+    border: 1px solid rgb(96, 96, 165);
+    text-align: center;
+
+}
+#add{
+    padding: 5px;
+    border: 1px solid rgb(96, 96, 165);
+    background-color: rgb(96, 96, 165);
+
+}
+#list-box{
+    background-color: beige;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+#list-box li{
+    align-items: center;
+    border: 1px solid rgb(96, 96, 165);
+    background-color: rgb(96, 96, 165);
+    padding: 5px;
+    margin-bottom: 10px;
+     position: relative;
+}
+.removebtn{
+   
+
+    height: calc(100% );
+    width: 60px;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
